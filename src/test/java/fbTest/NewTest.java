@@ -10,10 +10,9 @@ public class NewTest {
   public void f() {
 		WebDriver driver;
 
-	  System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\Resource\\geckodriver.exe");
  	 driver = new FirefoxDriver();
- 
-
-	driver.navigate().to("http://toolsqa.com/java/maven/create-new-maven-project-eclipse/");
+	driver.get("https://google.com/");
+	driver.manage().window().maximize();
+	driver.close();
   }
 }
