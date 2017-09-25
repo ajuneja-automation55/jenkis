@@ -22,8 +22,8 @@ public class NewTest {
 	    caps.setCapability("version", "36.0");
 	 
 	    driver = new RemoteWebDriver(new URL("http://Anup91:39dc3a58-3fb9-4ebb-9601-f369db00197c@ondemand.saucelabs.com:4444/wd/hub"), caps);
- 	 driver.get("https://google.com/");
- 	 driver.get("http://www.rediff.com/");
+ 	 //driver.get("https://google.com/");
+ 	 driver.get("https://www.facebook.com/");
  	 String getTitle=driver.getTitle();
  	 System.out.println(getTitle);
  	 Thread.sleep(10000);
