@@ -21,7 +21,7 @@ public class NewTest {
 	    caps.setCapability("platform", "Windows 7");
 	    caps.setCapability("version", "36.0");
 	 
-	    driver = new RemoteWebDriver(new URL("http://Anup91:39dc3a58-3fb9-4ebb-9601-f369db00197c@ondemand.saucelabs.com:4444/wd/hub"), caps);
+	    driver = new RemoteWebDriver(new URL("http://testSauce55:349bc767-3426-411a-9e26-19c3185223fa@ondemand.saucelabs.com:4444/wd/hub"), caps);
  	 //driver.get("https://google.com/");
  	 driver.get("https://www.facebook.com/");
  	 String getTitle=driver.getTitle();
